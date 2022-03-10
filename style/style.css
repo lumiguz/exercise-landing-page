@@ -54,6 +54,7 @@ main #hero,
     font-size: 24px;
   font-weight: 900;
 }
+
 #hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -75,7 +76,10 @@ main #hero,
     border: none;
     
 }
-
+#hero .btn a:hover{
+    background-color: #f9faf8;
+    color: #3882f6;
+}
 #information {
   background-color: #ffffff;
   padding-top: 40px;
@@ -108,6 +112,10 @@ main #hero,
   background-color: #3882f6;
   padding: 20px 40px;
   border-radius: 15px;
+}
+#call-action .btn a:hover{
+    background-color: #f9faf8;
+    color: #3882f6;
 }
 .header-links{
     font-size: 18px;
